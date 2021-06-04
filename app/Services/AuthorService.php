@@ -2,11 +2,11 @@
 
 namespace App\Services;
 
-use App\Traits\ConsumeExternalService;
+use App\Traits\ConsumesExternalService;
 
 class AuthorService
 {
-    use ConsumeExternalService;
+    use ConsumesExternalService;
 
     /**
      * The base uri to consume the authors service

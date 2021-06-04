@@ -4,7 +4,7 @@ namespace App\Traits;
 
 use GuzzleHttp\Client;
 
-trait ConsumeExternalService
+trait ConsumesExternalService
 {
     /**
      * Send a request to any service
